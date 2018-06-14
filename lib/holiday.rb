@@ -87,10 +87,10 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   holiday_hash.each do |season, data|
     binding.pry
-    # key.collect do |holiday, value|
+    key.collect do |holiday, value|
     #   if value == ["BBQ"]
     #     return holiday
     #   end
-    # end
+    end
   end
 end
