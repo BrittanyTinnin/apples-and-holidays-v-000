@@ -91,7 +91,8 @@ def all_holidays_with_bbq(holiday_hash)
       binding.pry
        if value.include?("BBQ")
          array << season
-        return array
+       end
     end
   end
+  return array
 end
