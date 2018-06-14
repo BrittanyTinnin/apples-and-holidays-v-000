@@ -90,7 +90,6 @@ def all_holidays_with_bbq(holiday_hash)
       binding.pry
        value.include?("BBQ")
         return holiday
-      end
     end
   end
 end
